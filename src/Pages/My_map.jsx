@@ -1,6 +1,18 @@
+import React, { useState } from 'react';
+import smallLogo from '../Images/Logo_small.png';
+import styled from 'styled-components';
+
+const Topbar = styled.div`
+`
+const Wrapper = styled.div`
+
+`
+
 const My_map = () => {
     return (
-        <div>hello</div>
+        <Topbar>
+            <img src={smallLogo} alt='Description'/>
+        </Topbar>
     );
 };
 
